@@ -1,3 +1,8 @@
+* {
+
+	box-sizing: border-box;
+}
+
 h1, h2 {
 
 	font-family: 'Delius Unicase', cursive;
@@ -7,4 +12,10 @@ h1, h2 {
 
 	background-color: #668cff;
 	color: white;
+}
+
+.work {
+
+	max-width: 100%;
+	min-height: 100%;
 }
