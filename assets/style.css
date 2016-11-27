@@ -46,6 +46,28 @@ body {
 	text-decoration: none;
 }
 
+nav {
+
+	float: right;
+	margin-top: 25px;
+}
+
+nav a {
+
+	color: #999;
+	text-decoration: none;
+	margin-left: 15px;
+	display: inline-block;
+	border-left: 1px solid #efefef;
+	padding-left: 15px; /*Padding Around the Element*/
+	line-height: 18px;
+}
+
+nav a:first-child {
+
+	border-left: 0 none;
+}
+
 h1, h2 {
 
 	font-family: 'Delius Unicase', cursive;
