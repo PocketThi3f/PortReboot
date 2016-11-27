@@ -10,7 +10,7 @@
 	
 </head>
 	<body>
-		<header id="mastHead">
+		<header id="masthead">
 
 			<div class="container">
 				<a href="front.html" id="logo">Kris Lai</a>
@@ -25,12 +25,24 @@
 	<div id="main-container" class="container">	
 		<section class="main-section">
 			<h1>Contact Me!</h1>
-
-			<input type="text" name="fullname" value="Name">
-			<input type="text" name="email" value="Email">
-			<textarea>Comments</textarea>
-			<button type="submit">Submit</button>
 			
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" name="fullname" id="name" placeholder="John Doe" required>
+					</li>
+					<li>
+						<label for="email">E-Mail</label>
+						<input type="text" name="email" id="email" placeholder="example@yahoo.com" required>
+					</li>
+					<li>
+						<label for="comment">Comments</label>
+						<textarea id="comment" name="commentsection" required></textarea>
+					</li>	
+					<button type="submit">Submit Info</button>
+				</ul>
+			</form>
 		</section>
 	
 			<section class="sidebar">
