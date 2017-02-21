@@ -64,7 +64,7 @@ body {
 	float: left;
 	text-align: center;
 	line-height: 90px;
-	color: #660000;
+	color: #000;
 	font-weight: 700px;
 	font-size: 30px;
 	font-family: 'Tillana', cursive;
@@ -77,7 +77,7 @@ nav {
 }
 
 nav a {
-	color: #660000;
+	color: #000;
 	font-family: 'Tillana', cursive;
 	font-size: 25px;
 	text-decoration: none;
@@ -99,13 +99,14 @@ nav a:first-child {
 }
 
 .main-section{
-	background: #fff;
+	background: #ac3939;
 	padding: 30px;
 	margin: 0 0 40px 0;
 	width: 100%;
 	max-width: 650px;
 	float: left;
 	border: 1px solid #ddd;
+	color: #000;
 }
 
 .sewnImage {
@@ -119,13 +120,14 @@ nav a:first-child {
 /*Sidebar*/
 
 .sidebar {
-	background: #fff;
+	background: #b35900;
 	padding: 30px;
 	width: 100%;
 	max-width: 270px;
 	float: right;
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
+	color: #000;
 }
 
 h3, .sidebar, h2 {
@@ -150,7 +152,7 @@ h3, .sidebar, h2 {
 
 footer {
 	background: #ac3939;
-	color: #660000;
+	color: #000;
 	padding: 30px 0;
 	clear: both;
 	border-top: 8px solid #4d2600;
@@ -228,7 +230,7 @@ textarea {
 button {
 	background: #b35900;
 	border: 0 none;
-	color: #fff;
+	color: #000;
 	font-size: 18px;
 	padding: 10px 30px;
 	cursor: pointer;
